@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', serif !important;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+header, nav {
+    display:block;
+    font-size: 1.7em;
+}
+
+#headerName {
+  font-family: 'Megrim', cursive;
+  font-size: 2.4em !important;
+  color: #0c646e;
+  display: inline-block;
+}
+
+@media (min-width: 768px){
+.navbar-collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible!important;
+}}
+
+.navbar-collapse {
+    text-align: center;
+    max-height: 340px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.collapse {
+    display: none;
+}
+
+#pic {
+  max-width: 80%;
+  height: auto;
+  border-radius: 100%;
+  padding-bottom: 0.8em;
+}
+
+#helloDiv {
+  text-align: left;
+  padding-top: 1em;
+  color: #7a738c;
+  font-size: 5em !important;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+#nameDiv {
+  text-align: center;
+  font-family: 'Raleway', serif !important;
+  color: #0c646e;
+  font-size: 4em !important;
+
+}
+
+#lDiv {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: 'La Belle Aurore', cursive;
+  color: #7a738c;
+  font-size: 3.5em !important;
+  clear: both;
+
+}
+
+#interestsDiv {
+  font-weight: bolder;
+    text-align: center;
+    height: 100px;
+    font-size: 2.6em !important;
+
+}
+
+#interests {
+  text-align: center !important;
+  color: #960851;
+}
+
+#about, #goalTag {
+  text-align: center;
+  padding-top: 0.47em;
+  font-family: 'La Belle Aurore', cursive;
+  color: #0c646e;
+  font-size: 4em !important;
+}
+
+#aboutMe{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 0.3em;
+  padding-bottom: 2em;
+}
+
+#goalsDiv{
+  text-align: left;
+  font-size: 2em;
+  padding-top: 0.3em;
+  padding-bottom: 2.74em;
+}
+
+#gif{
+  width: 50%;
+  height: auto;
+  border-radius: 3%;
+}
